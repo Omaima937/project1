@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Warehouse is a leading custom print online store operating in Pakistan. Launched in 2012, The Warehouse is the online hub for all kinds of clothing products for men, women, and kids. Our wide range of quality and creative products does not end here, We have got various product ranges for home decoration, stationery and accessories that suit everyone’s needs. Having the official merchandise for two Pakistan Super League teams Multan Sultans, Peshawar Zalmi, The Akram Foundation, and Pakistan’s top animated movie called The Donkey King, The Warehouse is regarded as the most credible online store for quality clothing items."
+        android:textSize="12sp"
+        android:textAlignment="gravity"
+        android:gravity="fill_horizontal"
+        android:background="@drawable/borders"
+        android:id="@+id/about"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Essential Information"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:background="@drawable/borders"
+        android:textAlignment="gravity"
+        android:gravity="fill_horizontal"
+        android:id="@+id/info"></TextView>
+
+    <TextView
+        android:id="@+id/require"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:text="Interior decorating certificate programs prepare students for entry-level jobs in decorating interior spaces. Students enrolled in this career certificate program often study the following subjects:\n 1- Residential interior design\n2- Commercial interior design\n3- Elements of design\n4- Furniture\n5- Lighting\n6- Meeting client needs\n7-Principles of color\n8- Interior decorating fabrics"
+        android:textAlignment="gravity"
+        android:background="@drawable/borders"
+        android:textSize="12sp"
+        android:textStyle="normal"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interior Decorator Cost"
+        android:textSize="14sp"
+        android:textAlignment="gravity"
+        android:textStyle="bold"
+        android:background="@drawable/borders"
+        android:id="@+id/cost"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiring an interior decorator costs $2,000 to $11,300. These professionals choose and implement the décor that gives a room its unique appearance including:\n1- Window treatments\n2-Paint\n5- Wallpaper\n4- Accessories\nDecorators don’t need formal training, so they aren’t qualified to design or build spaces. Instead, they dress the room, introducing new color schemes and stylish elements. Ask about a pro’s experience before hiring them, to get a sense for what they can do for your home."
+        android:textSize="12sp"
+        android:textAlignment="gravity"
+        android:textStyle="normal"
+        android:background="@drawable/borders"
+        android:id="@+id/cost1"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interior Decorator Price List"
+        android:textSize="14sp"
+        android:textAlignment="gravity"
+        android:textStyle="bold"
+        android:background="@drawable/borders"
+        android:id="@+id/list"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hourly Rate\t\t\t\t\t\t\t\t\t\t\t\t\t\t$50-$150\nConsultation\t\t\t\t\t\t\t\t\t\t\t\t\t$100-$300\nMarkup on Materials\t\t\t\t\t\t10%-40%"
+        android:textSize="14sp"
+        android:textAlignment="gravity"
+        android:padding="2dp"
+        android:textStyle="bold"
+        android:background="@drawable/borders"
+        android:id="@+id/list1"></TextView>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0A0B0B"
+    >
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="57dp"
+        android:text="Billing System"
+        android:textColor="#F9FDFD"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="258dp"
+        android:layout_height="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="287dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="btn_button"
+        android:text="Credit Card"
+        android:textColor="#0B0B0B"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="234dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="162dp"
+        android:background="@drawable/rounded_button"
+        android:text="Payment on delivery"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+
+</RelativeLayout>
